@@ -1,7 +1,7 @@
 import os.path
 
 
-def day2():
+def day():
     forward = 0
     depth = 0
     aim = 0
@@ -41,4 +41,4 @@ def get_input():
 
 
 if __name__ == "__main__":
-    day2()
+    day()

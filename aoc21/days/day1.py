@@ -1,7 +1,7 @@
 import os.path
 
 
-def day1():
+def day():
     last_depth = 99999
     second_last = 0
     third_last = 0
@@ -42,4 +42,4 @@ def get_input():
 
 
 if __name__ == "__main__":
-    day1()
+    day()

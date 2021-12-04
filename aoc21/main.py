@@ -9,7 +9,7 @@ def main():
         print(f"Todays day is {dayNumber}, here is the challenge")
 
         dayModule = modules[f"days.day{dayNumber}"]
-        getattr(dayModule, f"day{dayNumber}")()
+        getattr(dayModule, f"day")()
 
         dayNumber = get_day_by_input()
 
