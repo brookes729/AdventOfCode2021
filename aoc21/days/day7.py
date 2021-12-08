@@ -18,9 +18,9 @@ def day():
         for position in [target_point_part2_min, target_point_part2_max]]
 
     print(
-        f"Day 6 result 1 is {sum([abs(target_point_part1 - crab) for crab in puzzle_input])}")
+        f"Day 7 result 1 is {sum([abs(target_point_part1 - crab) for crab in puzzle_input])}")
     print(
-        f"Day 6 result 2 is {min([value for value in part2_position_fuel])}")
+        f"Day 7 result 2 is {min([value for value in part2_position_fuel])}")
 
 
 def get_input():
